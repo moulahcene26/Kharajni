@@ -1,4 +1,4 @@
-const API_KEY = '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';
+const API_KEY = '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';
 
 const selectedCountries = new Set();
 const selectedMajors = new Set();
