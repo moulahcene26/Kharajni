@@ -1,4 +1,4 @@
-const API_KEY = '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';
+const API_KEY = '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';
 
 const selectedCountries = new Set();
 const selectedMajors = new Set();
@@ -80,7 +80,7 @@ async function getAIResponse(prompt) {
                 'Authorization': `Bearer ${API_KEY}`
             },
             body: JSON.stringify({
-                model: 'meta-llama/llama-3.2-90b-vision-instruct:free',
+                model: 'meta-llama/llama-3.3-70b-instruct:free',
                 messages: [
                     { role: "system", content: "You are a helpful assistant." },
                     { role: "user", content: prompt }
